@@ -1,0 +1,49 @@
+Program '9.cpp'
+---------------
+
+
+write() member function of ostream class.
+-------------------------------------------------
+
+
+the write() member function of ostream class has the following syntax:
+
+	cout.write(line, size);
+
+size is the length of the line to be displayed and can be any value(according to the desired needs of the user)
+
+
+	cout.write(s, 20);
+
+let's say you entered a string as follows:
+
+	Hello
+
+
+then the output for cout.write(s, 20) will be:
+	
+	HelloeïF*V�
+
+what we have here is the string 'Hello' along with some garbage value....
+____________________
+Property of write()
+
+it keeps on displaying even after encountering the null character; if the original size of the string is greater than the length of the line entered by the user
+then it displays beyond the bounds of the line!!
+_____________________________________________________________________________________________________________________________________________________________
+
+Here the original size of the string(passed as parameter of write()) was 20, but we entered a string of only 5 characters i.e. 'Hello', so write() didnot stop
+even after encountering the null character at the end of the string 'Hello' and went on displaying beyond the bounds of 'Hello' because write() was supposed to
+display 20 characters in the output.:w
+
+One good solution to such type of problems is to use the member function of string.h  i.e. strlen() which will return the exact length of the string that we entered.
+
+Like in this example below:
+
+	cout.write(s, strlen(s));
+
+This will display the output as:
+
+	Hello
+
+So, beware while using write()............
