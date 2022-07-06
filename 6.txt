@@ -1,0 +1,1 @@
+Program '6.cpp' is same as program '2.cpp', only difference is cout<<c; has been replaced by cout.put(ch);
