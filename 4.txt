@@ -1,0 +1,7 @@
+the put() is a member function of ostream class and cout is an object of that class, similarly get() is a member function of the istream class and 
+cin is an object of that class.
+
+
+put() is used to output one character to the screen.
+
+get() is used to get one character from the user.
