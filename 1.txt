@@ -1,0 +1,1 @@
+In the program '1.cpp' no matter how many characters you enter, the get() function will take only one character and leave the rest!!!
