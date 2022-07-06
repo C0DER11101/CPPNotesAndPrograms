@@ -1,0 +1,37 @@
+This program looks a bit confusing, but is really easy....
+
+
+Here, there are 3 consecutive get() statements as
+
+	cin.get(c);
+	cin.get(b);
+	cin.get(d);
+
+Here, as we know the get takes only one reads one character and drops the rest characters when you will give an input like this:
+
+	a b
+
+'a' will get stored in c and the space between 'a' and 'b' which is ' ' will get stored in b and 'b' will get stored in d, now you pressed enter
+after inputing the characters and new line was dropped by cin.get(d).
+
+Now the try block comes into play:
+cin.get(a) gets the newline dropped by cin.get(d).
+
+Now the conditional, if(a=='\n') is checked and found to be true, after this the if conditional if(b==' ') is checked and found to be true, so since both
+the if conditionals are found to be true then b is thrown out of the try block and caught by the catch statement i.e. catch(char ss) and
+the ascii value of b is shown which 32 for a space.
+
+But if you give an input like this:
+
+	a
+	b
+
+then 'a' will get stored in c, 'b' will get stored in b and and the newline after 'c' will get stored in d.
+The newline after 'c' will be dropped by cin.get(d); and will taken as input by cin.get(a); inside the try block and this time
+the if conditional if(b==' ') will yield false, so a will thrown and recieved by the catch statement and the ascii value of newline will be displayed, i.e. 10.
+
+
+An input of this format:
+abc
+
+will assign 'a' to c, 'b' to b and 'c' to d and the newline after 'c' will received by cin.get(a); and the rest as same as the previous cases!!
