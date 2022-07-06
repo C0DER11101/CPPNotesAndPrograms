@@ -1,0 +1,35 @@
+The getline() is a member function of the istream class with following syntax:
+
+getline(line, size);
+the getline() takes size-1 characters as input.
+
+in program '8.cpp', we have declared an array of 10 characters char str[10] and taken the input as:
+
+	cin.getline(str, 5);
+
+getlilne() takes 4 characters as input.
+
+So if you give an input as:
+
+	Priyanuj
+
+Then only the first 4 characters will be taken as input(5-1=4) i.e. 'Priy' and that will be displayed by cout<<str<<endl;
+
+Furthermore, the getline() also takes spaces and tabs and newlines as input.
+
+Now if you enter a string like:
+
+	hello	world
+ _______________________________________________________
+| notice: there is a tab in between 'hello' and 'world'.|
+ -------------------------------------------------------
+for cin.getline(str, 10); then the tab will taken as a single space(obviously, tab is equivalent to 4 spaces).
+
+But if you enter a string like this:
+	
+	hello    world
+
+ ________________________________________________________
+| notice: there are 4 spaces between 'hello' and 'world'.|
+ --------------------------------------------------------
+for cin.getline(str, 10); then the only 'hello    ' will taken as input because it has 9 characters('hello' and the four spaces).
