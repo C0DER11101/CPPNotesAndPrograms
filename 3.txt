@@ -7,7 +7,7 @@ Here, there are 3 consecutive get() statements as
 	cin.get(b);
 	cin.get(d);
 
-Here, as we know the get takes only one reads one character and drops the rest characters when you will give an input like this:
+Here, as we know the get() only reads one character and drops the rest characters when you will give an input like this:
 
 	a b
 
