@@ -1,0 +1,14 @@
+The program '5.cpp' implements simple i/o.
+
+Here we take an integer input give a character output.
+
+	int a;
+	cin>>a;
+
+	cout.put(a);
+
+Here cin>>a takes an integer input, say the input was:
+
+	65
+
+then cout.put(a); will output 'A' because 65 is the ascii value of 'A'. So the put() function only displays characters, even when the input is an integer!!!
