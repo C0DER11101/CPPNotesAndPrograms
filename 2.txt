@@ -1,0 +1,28 @@
+In '2.cpp',
+
+the cin.get(c);
+outside the while loop will take a string as input, but as we already know how the get() works, it will take only one character and leave the rest.
+When the control will enter the loops the rest of the characters that the get() left will taken as input the cin.get(c) inside the while loop and 
+this will continue until a newline is encountered!!!
+
+cin.get(c);
+while(c!='\n')
+{
+	cout<<c;
+	cin.get(c);
+}
+
+
+if you enter "hello world", then the outer cin.get(c) will take only 'h' of "hello world" and leave "ello world", now the while loop checks the condition
+c!='\n' and finds it to be false(note: get() also reads tabs, spaces and newlines) and outputs c which is 'h', then the cin.get(c); after cout<<c;
+
+gets 'e' of "ello world" and leave "llo world" and now c's value is 'e'; again cout<<c; displays 'e' and this process continues on until the '\n' is encountered.
+
+Note that when you pressed enter after giving the input in outer cin.get(c); the get() also read the newline character meaning that the string "hello world"
+
+also had a newline character at the end as:
+
+
+			"hello world\n"
+
+Hope the explanation was okay(atleast for me  :))
