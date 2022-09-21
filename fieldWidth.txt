@@ -1,0 +1,47 @@
+The .cpp file with the same name shows the working of the width() member function of ostream.
+
+SYNTAX:
+cout.width(w);
+
+w is the width of the field (number of columns).
+
+example:
+
+cout.width(5);
+
+cout<<120<<340<<"\n";
+
+this will generate the following output:
+
+  120340
+
+This is what actually happening here:
+
+the width() function can specify the field width for only one item, the item must follow immediately after the function call.
+
+Here 120 was immediately after cout.width(5), so field width was applied to only 120 but 340 remained unchanged.
+
+Here is how it was done:
+
+_________________
+| | |1|2|0|3|4|0|
+-----------------
+
+as you can see that there are two spaces before 120 so field width of 120 is 5 i.e. the two spaces before 120 + the length of the 
+number 120 itself, but 340 remains unchanged.
+So to apply the change to 340 as well, we need to do this:
+
+cout.width(5);
+cout<<120;
+cout.width(5);
+cout<<340<<"\n";
+
+
+the output of will be:
+  120  340
+
+Here is how it was done:
+
+_____________________
+| | |1|2|0| | |3|4|0|
+---------------------
