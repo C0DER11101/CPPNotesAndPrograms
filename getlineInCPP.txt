@@ -1,0 +1,23 @@
+The .cpp file with the same name as this text file contains some really helpful information.
+
+
+SYNTAX:
+cin.getline(str, size);
+
+Now, the getline() function continues reading input as long as it doesnot encounter a newline '\n' or the number of characters
+read doesnot read size-1.
+The reading terminates as soon one of them occurs.
+
+The newline character is read but not saved, it is instead replaced by the null character(ASCII value 0).
+
+
+So in the program,
+when you enter a string that has size >=5, the getline() function terminates its reading as soon as it encounters the fifth
+chharacters or a newline. The newline is replaced by the null character and discarded which is accepted by the character variable
+ch and thus the output comes as it should.
+
+
+No matter how many characters you enter after size-1 characters, getline() doesnot accept them. It only accepts the size-1
+characters that you entered and the rest is discarded and ofcourse you do press the enter key after giving the input, that
+enter key is the newline for getline() which it replaces with the null character and discards it, just like cin discards a newline
+character.
