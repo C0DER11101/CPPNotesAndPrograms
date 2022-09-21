@@ -1,0 +1,10 @@
+			int sample::count;
+
+In this statement we are simply defining the static variable count of class sample.
+
+Static variables are like non-inline member functions, they have to be defined like above in the source file(outside the class)!!!
+
+
+You can also initialize it as:
+
+			int sample::count=10;
