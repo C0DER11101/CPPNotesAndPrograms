@@ -1,0 +1,34 @@
+Inline functions can be declared as
+
+inline returnType functionName(parameters);
+
+OR
+
+returnType functionName(parameters);
+
+with a definition as follows:
+
+inline returnType functionName(parameters)
+{
+	// inline function body
+}
+
+
+
+OR 
+they can also be used as follows:
+
+inline returyType functionName(parameters);
+
+
+with a definition as follows:
+
+returyTypefunctionName(parameters)
+{
+	// inline function body
+}
+
+
+
+An inline function can be simply thought of as a macro( like the #define preprocessor), when the compiler encounters a call to
+an inline function, it replaces that call with the body of that inline function!!!!
