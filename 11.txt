@@ -1,0 +1,10 @@
+SIMPLE EXPLANATION:
+
+cout.write(str, size); displays the string str upto size characters.
+
+example:
+
+char str[100]="Priyanuj"
+cout.write(str, 4);
+
+will display the string str upto 4 characters i.e. "Priy" will be diplayed
