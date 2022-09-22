@@ -9,5 +9,10 @@ int main(void)
 	cout<<sqrt(2)<<endl;
 	cout<<3.14159<<endl;
 	cout<<34.56234<<endl;
+
+	cout.precision(4);
+	cout<<sqrt(2)<<endl;
+	cout<<3.14159<<endl;
+	cout<<34.56234<<endl;
 	return 0;
 }
