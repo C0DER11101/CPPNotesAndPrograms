@@ -22,7 +22,7 @@ The result is:
 3.14
 34.6
 
-For some reason, precision(3) show 3-1 numbers after the decimal point.
+For some reason, precision(3) shows 3-1 digits after the decimal point.
 
 
 cout.precision(4);
@@ -36,4 +36,4 @@ Now, these lines show me the following output:
 3.142
 34.56
 
-Notice, that each digit has 4-1 number of digits after the decimal point.
+Notice, that each number has 4-1 number of digits after the decimal point.
