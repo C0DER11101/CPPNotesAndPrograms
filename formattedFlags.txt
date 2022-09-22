@@ -75,3 +75,21 @@ Output will be:
 
 TABLE 3********
 
+The set() is not like width(), meaning it doesnot hold for only one item, it holds for all the items that follow it.......
+
+Exampl:
+
+cout.fill('*');
+cout.setf(ios::left, ios::adjustfield);
+cout.width(15);
+cout<<"TABLE 1"<<"\n";
+cout.width(15);
+cout<<"TABLE 2"<<"\n";
+
+Output will be:
+
+TABLE 1********
+TABLE 2********
+
+
+cout.setf() holds for both the output statements here!!!
