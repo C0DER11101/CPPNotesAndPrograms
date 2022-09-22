@@ -1,0 +1,42 @@
+Explanation of 'Filling.cpp'
+
+fill() in C++
+
+SYNTAX:
+cout.fill(character);
+character can be any character like '*' or '(' or '-' or '=' or '+', or '1', or '2', etc.....
+this fill() function is exactly what it's name is.
+It fills in the white spaces created by width() function.
+
+the character should be within single quotes.....
+
+
+Example:
+
+cout.width(10);
+cout.fill('*');
+cout<<12345<<endl;
+
+Will print the following output:
+
+*****12345
+
+Here the white spaces created by width() have been "filled" up by '*'.
+
+Again, the order of placing these two functions doesnot matter, i.e.
+
+cout.fill('*');
+cout.width(10);
+cout<<12345;
+
+AND
+
+
+cout.width(10);
+cout.fill('*');
+cout<<12345<<endl;
+
+Will produce the same output which is:
+
+
+*****12345
