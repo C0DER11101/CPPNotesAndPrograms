@@ -1,1 +1,39 @@
 Explanation of the .cpp file with the same name as this text file.
+
+The precision() function in C++
+
+SYNTAX:
+cout.precision(d);
+
+
+d is the number of digits to be displayed after the decimal point.
+
+In my case, however, when I write:
+
+cout.precision(3);
+cout<<sqrt(2)<<endl;
+cout<<3.14159<<endl;
+cout<<34.56234<<endl;
+
+
+The result is:
+
+1.41
+3.14
+34.6
+
+For some reason, precision(3) show 3-1 numbers after the decimal point.
+
+
+cout.precision(4);
+cout<<sqrt(2)<<endl;
+cout<<3.14159<<endl;
+cout<<34.56234<<endl;
+
+Now, these lines show me the following output:
+
+1.414
+3.142
+34.56
+
+Notice, that each digit has 4-1 number of digits after the decimal point.
