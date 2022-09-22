@@ -1,0 +1,39 @@
+.cpp file with same name exists.
+
+Maybe in cout.precision(d), the decimal point(.) is also counted, so that's why it shows d-1 digits after the decimal point.
+
+
+Now, in this cpp program, I wrote the following lines:
+
+cout.precision(3);
+cout.width(5);
+cout<<1.2345;
+cout.width(5);
+cout<<45<<endl;
+
+the cout.precision(3) function is applied for both 1.2345 and 45, but cout.width(5) is applied for only 1.23, that's why I
+had to give another cout.width(5) before 45.
+
+
+Now, the first two lines basically mean this:
+
+"display the 2 digits after the decimal point in a field of five character width."(this whole line has been taken from a book).
+
+
+In simple words:
+
+cout.precision(3); sets the precision for 2 digits after the decimal point.
+cout.width(5); tells that the field width of the number should be 5.
+So if we combine the two statements together then we get the following statement:
+
+'the precision has been set to display 2 digits after decimal point for a number that has a field width of 5!!!'
+
+
+So the output is:
+
+ 1.23   45
+
+
+_____________________
+| |1|.|2|3| | | |4|5|
+---------------------
