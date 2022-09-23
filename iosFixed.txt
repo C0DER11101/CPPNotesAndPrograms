@@ -1,0 +1,15 @@
+Explanation of .cpp file with the same name.
+
+cout.precision(3);
+cout.setf(ios::fixed, ios::floatfield);
+cout<<34.5<<endl;
+
+The output is:
+34.500
+
+cout.precision(3); displays 3 digits after the decimal point.
+cout.setf(ios::fixed, ios::floatfield); makes sure that number of digits displayed after the decimal point remains fixed i.e 
+exactly 3 digits are displayed after the decimal point and not more than
+that or less than that.
+
+Again, the order of writing the precision() and setf() doesnot matter.
