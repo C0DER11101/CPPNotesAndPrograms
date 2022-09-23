@@ -13,3 +13,23 @@ exactly 3 digits are displayed after the decimal point and not more than
 that or less than that.
 
 Again, the order of writing the precision() and setf() doesnot matter.
+
+
+Flags that donot have bit-fields:
+
+FLAG							MEANING
+------------------------------------------------------------------------------------
+ios::showbase						use base indicator on output
+
+ios::showpos						print + before positive numbers
+
+ios::showpoint						show trailing decimal point and zeroes
+
+ios::uppercase						use uppercase letters for hex output
+
+ios::skipus						skip whitespace on input
+
+ios::unitbuf						flush all streams after insertion
+
+ios::stdio						flush stdout and stder after insertion
+------------------------------------------------------------------------------------
