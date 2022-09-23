@@ -1,0 +1,16 @@
+Explanation of .cpp file with the same name as this one....
+
+the working of setw(), setprecision(), setiosflags(), etc is exactly like cout.width(), cout.precision(), cout.setf(), .....
+
+
+Here also, we use setw(), setprecision(), etc.... functions with cout !!!
+
+Just like we used width(), precision(), setf() etc...functions with cout!!!
+
+Here the order does not matter in which you write them.....
+
+Everything is same as width(), precision(), etc......
+
+REMEMBER ONE THING:
+
+setw(), setprecision(), setiosflags(), etc... are defined in the iomanip header file(no .h required)....
