@@ -1,0 +1,47 @@
+Explanation for the .cpp file with the same name:
+
+
+ios::internal is used for padding after a sign(+, -, ......).
+
+So, 
+
+cout.fill('*');
+cout.precision(4);
+cout.setf(ios::internal, ios::adjustfield);
+cout.setf(ios::scientific, ios::floatfield);
+cout.width(15);
+cout<<-12.34567<<"\n";
+
+fill(), precision() and width() are understandable.
+
+cout.setf(ios::internal, ios::adjustfield); causes padding after the - sign before 12.34567 and
+cout.setf(ios::scientific, ios::floatfield); basically the floating number 12.34567 as 1.2346e+01
+
+e stands for exponent, so basically, 1.235e+01 means  1.235*10^1.
+
+
+So, the output will be:
+
+-****1.2346e+01
+
+the padding after the - sign is filled by the fill() function.
+
+
+Again, the order in which you write fill(), width(), precision(), setf(ios::internal, ios::adjustfield) and
+setf(ios::scientific, ios::floatfield) doesnot matter, you can write them in any order.
+
+Example:
+
+
+cout.setf(ios::internal, ios::adjustfield);
+cout.setf(ios::scientific, ios::floatfield);
+cout.precision(4);
+cout.fill('*');
+cout.width(15);
+cout<<-12.34567<<"\n";
+
+
+these lines will produce the same output as the previous lines.
+
+ios::scientific, affects all the statements that come after it(unlike width() which affects only one item and that 
+is the statement that comes immediately after it).
