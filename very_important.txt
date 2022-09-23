@@ -1,0 +1,1 @@
+https://cplusplus.com/reference/ostream/ostream/operator%3C%3C/
