@@ -1,0 +1,26 @@
+MANIPULATORS AND THEIR MEANINGS:
+
+
+
+
+Manipulator			Meaning				Equivalent
+---------------------------------------------------------------------------------
+setw(int w)			set the field
+				width to w			width()
+
+setprecision(int d)		set the floating
+				point precision
+				to d.				precision()
+
+setfill(int c)			set the fill
+				character to c			fill()
+
+setiosflags(long f)		set the format
+				flag f				setf()
+
+resetiosflags(long f)		clear the flag
+				specified by f			unsetf()
+
+endl				insert newline
+				and flush stream		"\n"
+---------------------------------------------------------------------------------
