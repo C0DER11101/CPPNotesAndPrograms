@@ -10,7 +10,7 @@ E.g
 	.		.		.
 	.		.		.
 
-The cost has 2 digits after the decimal; The name is left justified, cost is right justified.
+The cost has 2 digits after the decimal; The name and code are left justified and cost is right justified.
 
 Q2. Modify Q1 to fill the unused space with hyphens.
 
