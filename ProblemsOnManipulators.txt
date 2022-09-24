@@ -16,7 +16,7 @@ Q2. Modify Q1 to fill the unused space with hyphens.
 
 Q3. Write a program which reads a text from the keyboard and displays the following information on the screen in two columns:
 
-i) Number of lins.
+i) Number of lines.
 ii) Number of words.
 iii) Number of characters.
 
