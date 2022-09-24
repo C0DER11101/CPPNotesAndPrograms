@@ -1,0 +1,80 @@
+Explanation of .cpp file with the same name.
+
+So, to create our own manipulators, we need to follow this format:
+
+ostream& manipulator(ostream& object)
+{
+	// code
+
+	return object;
+}
+
+Example:
+
+Consider this code snippet:
+
+int main(void)
+{
+	cout<<posSign<<3<<endl;
+	return 0;
+}
+
+
+ostream& posSign(ostream& output)
+{
+	output<<setiosflags(ios::showpos);
+
+	return output;
+}
+
+
+Notice that we wrote cout<<posSign<<3<<endl;
+
+posSign() is a function, but we wrote it like a simple variable.
+Now, here, the concept of function pointers comes to play.
+If you look at the documentation of ostream class here:
+
+https://cplusplus.com/reference/ostream/ostream/operator%3C%3C/
+
+then you will see that the operator<<() has been overloaded for a couple of operations, one being for manipulators....
+
+
+The declaration of this functions is:
+
+ostream& operator<<(ostream& (*pf)(ostream&));
+
+When we simply write the name of the function, we are basically using its address.
+
+Example:
+
+cout<<posSign;
+
+This basically means outputing the address of the function posSign().
+
+Now, consider, this statement from the snippet:
+
+cout<<posSign<<3<<endl;
+
+Now, here, cout<<posSign basically means this:
+cout.operator<<(posSign);
+
+Basically it calls the ostream& operator<<(ostream& (*pf)(ostream&)); function and takes the address of the posSign() as the
+argument.
+
+Now, in the operator<<() function this function could be called with an ostream object(most possibly cout) as:
+
+ostream& operator<<(ostream& (*pf)(ostream&))
+{
+	return (*pf)(cout);
+}
+
+When (*pf)(cout); call is issued, it goes to the definition of posSign() with cout as the argument and it does what you see
+in the definition of posSign() and returns a reference to the ostream object back to the statement
+
+	return (*pf)(cout); which again returns that reference back to the statement:
+
+	cout<<posSign<<3<<endl;
+
+	So, this statement can be broke down to :
+
+	cout.operator<<(posSign)<<3<<endl;
