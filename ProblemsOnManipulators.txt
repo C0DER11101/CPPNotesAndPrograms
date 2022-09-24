@@ -1,0 +1,27 @@
+Q1. Write a program to read a list containing item name, item code and cost interactively and produce three column output.
+
+
+E.g
+
+	NAME		CODE		COST
+	TurboC++	1001		250.95
+	.		.		.
+	.		.		.
+	.		.		.
+	.		.		.
+
+The cost has 2 digits after the decimal; The name is left justified, cost is right justified.
+
+Q2. Modify Q1 to fill the unused space with hyphens.
+
+Q3. Write a program which reads a text from the keyboard and displays the following information on the screen in two columns:
+
+i) Number of lins.
+ii) Number of words.
+iii) Number of characters.
+
+Q4. Write a program to find the value of e in the following series:
+
+e = 1+1/1! + 1/2! +...... upto acc = 0.0001
+
+Q5. Write a program to display the value of 22/7 in different precision setting.
