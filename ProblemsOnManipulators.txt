@@ -19,6 +19,7 @@ Q3. Write a program which reads a text from the keyboard and displays the follow
 i) Number of lines.
 ii) Number of words.
 iii) Number of characters.
+Strings should be left-justified and numbers should be right-justified in a suitable field width.
 
 Q4. Write a program to find the value of e in the following series:
 
