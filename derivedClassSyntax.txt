@@ -1,0 +1,26 @@
+class derived_class_name: visibility_mode base_class_name
+{
+	// members of derived class
+};
+
+
+Eg.
+
+class A
+{
+	// datamembers;
+};
+
+class B:public A
+{
+	// derived class members
+};
+
+Base class visibility							Derived class visibility
+						public derivation		protected derivation		private derivation
+
+private						not inherited			not inherited			not inherited
+
+protected					protected			protected			private
+
+public						public				protected			private
