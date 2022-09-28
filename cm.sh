@@ -1,4 +1,4 @@
-# compile c++ file
+# compile c++ files
 
 if [ -e $1 ]
 then
