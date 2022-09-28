@@ -1,4 +1,4 @@
-**METHOD OF INHERITANCE									ORDER OF EXECUTION**
+**METHOD OF INHERITANCE                                                                  ORDER OF EXECUTION**
 ```C++
 class B:public A									A(); base constructor
 {											B(); derived constructor
