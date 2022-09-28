@@ -1,0 +1,42 @@
+SYNTAX:
+
+---------------------------------------------------------------
+|class D:visibility className1, visibility className2, .....  |
+|{                                                            |
+|	datamembers and member functions                      |
+|};                                                           |
+---------------------------------------------------------------
+
+Example:
+
+class M
+{
+	protected:
+		int m;
+	public:
+		void get_m(int);
+};
+
+void M::get_m(int val)
+{
+	m=val;
+}
+
+class N
+{
+	protected:
+		int n;
+	public:
+		void get_n(int);
+};
+
+void N::get_n(int val)
+{
+	n=val;
+}
+
+class P: public M, public N     // this is multiple inheritance!!
+{
+	public:
+		void display();
+};
