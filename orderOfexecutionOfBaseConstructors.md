@@ -1,4 +1,4 @@
-# Method of Inheritance								# Order of Execution
+### Method of Inheritance								Order of Execution
 
 ```C++
 class B:public A									A(); base constructor
