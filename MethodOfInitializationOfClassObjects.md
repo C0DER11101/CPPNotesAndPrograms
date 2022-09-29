@@ -1,6 +1,6 @@
 # _INITIALIZATION LIST IN THE CONSTRUCTOR FUNCTION_
 
-**This is another method od initializing the class objects**
+**This is another method of initializing the class objects**
 
 _SYNTAX:_
 
