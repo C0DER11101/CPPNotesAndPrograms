@@ -30,7 +30,3 @@ int main(void)
 	return 0;
 }
 ```
-
-Here is are some images for better explanation:
-
-![alt text](/home/priyanuj/Desktop/C0DER11101/c++practice/ConstructorInitialization1.png)
