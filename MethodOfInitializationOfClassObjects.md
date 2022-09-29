@@ -30,3 +30,29 @@ int main(void)
 	return 0;
 }
 ```
+
+There are many other ways:
+
+**Way-1**
+```C++
+A(int i, int j): b(i), a(i+j) { }
+```
+
+**Way-2**
+```C++
+A(int i, int j): a(i), b(a*j) { }
+```
+
+**Way-3**
+```C++
+A(int i, int j): b(i), a(b*j) { }
+```
+**Way-4**
+```C++
+A(int i, int j): a(i) {b=j;}
+```
+
+**Way-5**
+```C++
+A(int i, int j){a=i; b=j;}
+```
