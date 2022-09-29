@@ -33,4 +33,4 @@ int main(void)
 
 Here is are some images for better explanation:
 
-![Snippet1](/home/priyanuj/Desktop/C0DER11101/c++practice "Image");
+![Snippet1](file:///home/priyanuj/Desktop/C0DER11101/c++practice/ConstructorInitialization1.png)
