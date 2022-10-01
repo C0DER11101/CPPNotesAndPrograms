@@ -19,7 +19,7 @@ int main(void)
 
 ```
 
-Here arptr is a pointer to an array of integers!!
+Here ```arptr``` is a pointer to an array of integers!!
 
 This is the syntax of declaration of a pointer to array:
 
@@ -29,7 +29,7 @@ datatype (*pointername)[size];
 
 Where ```datatype``` can be any datatype like _int, float, double, etc..._
 
-```arptr``` stores the address of the whole array ar.
+```arptr``` stores the address of the whole array ```ar```.
 
 When we dereference ```arptr``` once i.e we write:
 ```C++
