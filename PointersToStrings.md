@@ -37,8 +37,6 @@ declares a pointer to character which points the first character i.e ``` 'o' ```
 
 There is a reason of using ```const``` before ```numstr```.
 
-```"one"``` is actually a string constant, so we cannot simply assign it to ```C++
-char*numstr
-```
+```"one"``` is actually a string constant, so we cannot simply assign it to ```char*numstr```.
 The constant ```"one"``` cannot be converted to a ``` char* ``` type, that's why the compiler throws us a warning.
 And that's why we use ```const``` before ```char*numstr```.
