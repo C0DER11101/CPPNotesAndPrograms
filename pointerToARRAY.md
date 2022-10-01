@@ -27,7 +27,7 @@ This is the syntax of declaration of a pointer to array:
 datatype (*pointername)[size];
 ```
 
-Where ```datatype``` can be any datatype like _int, float, double, etc..._
+Where ```datatype``` can be any datatype like _int, float, double, etc..._ and ```size``` is the size of the array.
 
 ```arptr``` stores the address of the whole array ```ar```.
 
