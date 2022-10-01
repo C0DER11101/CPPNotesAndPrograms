@@ -27,15 +27,15 @@ This is the syntax of declaration of a pointer to array:
 datatype (*pointername)[size];
 ```
 
-Where 'datatype' can be any datatype like _int, float, double, etc..._
+Where ```C++ datatype``` can be any datatype like _int, float, double, etc..._
 
-arptr stores the address of the whole array ar.
+```C++ arptr``` stores the address of the whole array ar.
 
-When we dereference arptr once i.e we write:
+When we dereference ```C++ arptr``` once i.e we write:
 ```C++
 *arptr
 ```
-it gives us the address of the 0th element of the array ar; and when we dereference arptr the second time:
+it gives us the address of the 0th element of the array ```C++ar```; and when we dereference ```C++ arptr``` the second time:
 ```C++
 **arptr
 ```
