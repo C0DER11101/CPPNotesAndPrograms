@@ -98,7 +98,7 @@ ignores the name ```sm``` given to the argument.
 
 But in the definition:
 ```C++
-void result(int a, int b, int(*sm)(int, int))
+int result(int a, int b, int(*sm)(int, int))
 {
 	cout<<"result() called\n";
 	return (*sm)(a, b);
