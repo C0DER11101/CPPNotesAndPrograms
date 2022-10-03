@@ -34,7 +34,7 @@ Here ```*sptr``` is a pointer to a class object.
 ### By using dereferencing operator
 
 Assume that there is a function ```greet()``` which is a public member of the class ```sample```.
-Now if we want to access ```greet()``` using ```sptr``` via way 1, then it will be as follows:
+Now if we want to access ```greet()``` using ```sptr``` then it will be as follows:
 
 ```C++
 // inside main
@@ -46,7 +46,8 @@ Now if we want to access ```greet()``` using ```sptr``` via way 1, then it will 
 }
 ```
 
-Via way 2, it will be:
+### By using arrow operator
+Accessing ```greet()``` using ```sptr``` with arrow operator will look something like this:
 
 ```C++
 // inside main
