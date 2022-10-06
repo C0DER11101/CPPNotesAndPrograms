@@ -4,6 +4,6 @@ _It defers the linking of a funcion call to a particular function at the run-tim
 
 _It is not known which function will be invoked till an object actuall makes the function call during the program's execution._
 
-**_this is late or dynamic binding_**
+**_This is late or dynamic binding_**
 
 **Run-time polymorphism is achieved with the help of virtual functions.**
