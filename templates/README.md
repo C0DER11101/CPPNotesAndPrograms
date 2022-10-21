@@ -2,4 +2,4 @@
 
 This folder is completely dedicated to templates in C++.
 
-_Have fun_:sunglasses:
+_Have fun_ :sunglasses:
