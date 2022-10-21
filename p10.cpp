@@ -12,7 +12,7 @@ class A
 
 	void getA(int val) { a = val; }
 	void showA() { cout<<"a = "<<a<<"\n"; }
-	virtual void about()=0;
+	virtual void about()=0;  // pure virtual function
 };
 
 class B:public A
