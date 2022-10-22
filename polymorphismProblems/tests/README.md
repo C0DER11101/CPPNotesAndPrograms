@@ -1,6 +1,6 @@
 # About
 
-_This folder will contain all the programs that contain errors!!_
+_This folder will contain programs that contain errors and programs that don't contain errors!!_
 
 
 ---
