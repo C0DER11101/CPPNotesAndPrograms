@@ -25,7 +25,7 @@ class B:public A
 		void showVal()
 		{
 			//cout<<"Value = "<<A::val<<"\n"; // throws an error!!
-			cout<<"Value = "<<A::val<<"\n"; // throws an error!!
+			cout<<"Value = "<<val<<"\n"; // throws an error!!
 		}
 };
 
