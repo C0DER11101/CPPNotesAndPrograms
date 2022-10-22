@@ -8,7 +8,15 @@ void shape::get_data(double b, double h)
 	height=h;
 }
 
-void shape::display_area()
+void shape::display_area(string shapeName)
 {
-	cout<<"\nThe area is : "<<base*height<<"\n";
+	if(shapeName=="triangle")
+	{
+		cout<<"Area of the triangle is: "<<((float)1/2)*base*height<<"\n";
+	}
+
+	else if(shapeName=="rectangle")
+	{
+		cout<<"Area of the rectangle is: "<<base*height<<"\n";
+	}
 }

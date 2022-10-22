@@ -12,17 +12,15 @@ class shape
 
 	void get_data(double, double);
 
-	void display_area();
+	void display_area(string);
 };
 
 class triangle:public shape
 {
-	double area;
 };
 
 class rectangle:public shape
 {
-	double area;
 };
 
 
