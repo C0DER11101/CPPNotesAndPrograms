@@ -4,7 +4,7 @@ The function declaration should be preceded by the keyword **friend**.
 
 _The function is defined elsewhere like a normal C++ function._
 
-_The function doesnot use either the keyword **friend** or the scope resolution operator `::`_
+_The function definition doesnot use either the keyword **friend** or the scope resolution operator `::`_
 
 
 **A function can be defined as a friend in any number of classes!!**
