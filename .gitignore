@@ -2,7 +2,6 @@
 *.java
 *.js
 *.asm
-*.png
 *.wav
 *.mov
 *.swp
