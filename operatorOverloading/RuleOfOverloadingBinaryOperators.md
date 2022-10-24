@@ -44,7 +44,7 @@ int main(void)
 
 In the main function, we are calling `operator+()` via the statement `s1+s2` in `s3=s1+s2`.
 
-As mentioned in the rule, the left-hand operand calls the operator function, so in this case `s1` calls `oprerator+()`, and the right-hand
+As mentioned in the [rule](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/operatorOverloading/RuleOfOverloadingBinaryOperators.md#rule), the left-hand operand calls the operator function, so in this case `s1` calls `oprerator+()`, and the right-hand
 operand is passed as argument, so `s2` is passed as argument.
 
 So the whole statement `s3=s1+s2` can be written as:
