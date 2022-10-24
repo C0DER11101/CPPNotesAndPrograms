@@ -39,7 +39,7 @@ int main(void)
 	s3.show();
 
 	return 0;
-	}
+}
 ```
 
 In the main function, we are calling `operator+()` via the statement `s1+s2` in `s3=s1+s2`.
