@@ -32,9 +32,7 @@ In the same way:
 **Note**
 
 `
-
 The space between "operator" and "op" is not needed, it is used just to make the reader understand!!!
-
 `
 
 Example:
