@@ -1,12 +1,13 @@
 # Operator functions
 
 **Syntax of defining an operator function:**
-`
+
+```c++
 returnType classname::operator op(arglist)
 {
 	// function body
 }
-`
+```
 
 where `operator` is a keyword and `op` is any operator like `+`, `-`, `*`, etc....
 
