@@ -1,6 +1,6 @@
 # Rule
 
-_In overloading of binary operators, the left-hand operand is used to invoke the operator function and the right-hand operand is passed s an argument._
+_In overloading of binary operators, the left-hand operand is used to invoke the operator function and the right-hand operand is passed as an argument._
 
 
 Example:
