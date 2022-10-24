@@ -28,4 +28,29 @@ In the same way:
 
 `operator op(x, y)` in case of friend functions!!
 
+
+**Note**
+
+`
+
+The space between "operator" and "op" is not needed, it is used just to make the reader understand!!!
+
+`
+
+Example:
+
+```C++
+class Sample
+{
+	// data members
+
+	public:
+	
+	void operator+(Sample&);
+};
+```
+
+
+**Here operator is the `keyword` and `+` is the operator `op`.**
+
 ---
