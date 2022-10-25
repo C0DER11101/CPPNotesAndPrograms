@@ -11,8 +11,9 @@ _Destructor destroys objects of a class(hence the name 'Destructor')_.
 
 **The destructor is not called when we pass arguments as a reference or pointer and also if the that function returns a reference to an object.**
 
-The object that invokes the member function is destroyed!!
+**Destructor starts destroying objects in the reverse order of their creation.**
 
+Say, in a function, when it terminates the destructor will be invoked for the object that is being returned by the function(if the function has a class type return type) i.e. in simple words, the destructor will start from the return statement of the function!!!
 
 ```c++
 String operator+(String&s)
@@ -55,6 +56,7 @@ This time, the destructor won't be called at all, because `operator+()` returns 
 
 Similarly, if you use a friend function and that friend function doesnot return a reference to object, then the destructor for the first argument will be called!!
 
+**Destructor is not called for the function returning a reference or pointer!!!**
 
 
 ```c++
@@ -69,7 +71,6 @@ String operator+(String&s1, String&s2)
 	return s1;
 }
 ```
-
-The destructor will be called for the argument `s1` !!!
+Here, the destructor will start its process of destroying from `return s1`, that is, it will first delete `s1` and the it will be called for any local object in the function(a destructor goes from bottom to top of a function)!!
 
 So, the friend function also has to return a reference!!!
