@@ -56,7 +56,7 @@ This time, the destructor won't be called at all, because `operator+()` returns 
 
 Similarly, if you use a friend function and that friend function doesnot return a reference to object, then the destructor for the first argument will be called!!
 
-The scope of a reference doesnot end with the function in which it is used, it lives till the actual variable(or object) it is a reference to is destroyed.
+The scope of a reference doesnot end with the function in which it is used, it lives till the actual variable(or object) to which it is a reference is destroyed.
 
 **Destructor is not called for the function returning a reference or pointer!!!**
 
