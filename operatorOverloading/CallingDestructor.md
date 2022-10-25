@@ -1,6 +1,6 @@
 # When the destructor is called
 
-_Destructor destroys objects of a class(hence the name 'Destrutor')_.
+_Destructor destroys objects of a class(hence the name 'Destructor')_.
 
 
 **When the destructor is called:**
