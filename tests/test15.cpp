@@ -47,7 +47,7 @@ int String::count;
 String&operator+(String&s1, String&s2)
 {
 	strcat(s1._s, s2._s);
-	return s1; // creating an object and returning it!!
+	return s1;
 }
 
 bool String::operator<=(String&s)
