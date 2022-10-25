@@ -1,4 +1,4 @@
-# Operators that can be overloaded
+# Operators that cannot be overloaded
 
 | Operator |    Description              |
 |:---------|----------------------------:|
