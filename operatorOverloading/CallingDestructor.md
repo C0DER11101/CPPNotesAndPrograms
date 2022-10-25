@@ -31,7 +31,7 @@ Here the `operator+()` function returns an object.
 s3=s1+s2; // same as writing s3=s1.operator+(s2)
 ```
 
-As we can see `s1` calls the `operator+()` function, so the destructor for `s1` will be called and `s1` will be destroyed!!
+As we can see `s1` calls the `operator+()` function and it is being returned by `operator+()`, so the destructor for `s1` will be called and `s1` will be destroyed!!
 
 
 But in this case:
@@ -55,6 +55,8 @@ s3=s1+s2; // same as writing s3=s1.operator+(s2)
 This time, the destructor won't be called at all, because `operator+()` returns reference to the invoking object, and not the object!!
 
 Similarly, if you use a friend function and that friend function doesnot return a reference to object, then the destructor for the first argument will be called!!
+
+The scope of a reference doesnot end with the function in which it is used, it lives till the actual variable(or object) it is a reference to is destroyed.
 
 **Destructor is not called for the function returning a reference or pointer!!!**
 
