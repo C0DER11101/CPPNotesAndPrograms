@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// See about when destructors are called in the folder operatorOverloading
+
 class sample
 {
 	int *_a;
@@ -14,11 +16,10 @@ class sample
 		_a=new int[5];
 	}
 
-	/*~sample()
+	~sample()
 	{
 		delete _a;
 	}
-	*/
 
 	void initialize()
 	{
@@ -41,10 +42,12 @@ class sample
 		cout<<"\n\n";
 	}
 
-	void terminate()
+/*	void terminate()
 	{
 		delete _a;
 	}
+*/
+
 };
 
 int main(void)
@@ -67,8 +70,8 @@ int main(void)
 	s1.display();
 	s2.display();
 
-	s1.terminate();
-	s2.terminate();
+//	s1.terminate();
+//	s2.terminate();
 
 	return 0;
 }
