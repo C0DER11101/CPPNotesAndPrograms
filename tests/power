@@ -1,0 +1,31 @@
+#ifndef SQROOT_H
+#define SQROOT_H
+
+using namespace std;
+
+class Math
+{
+	double _number;
+	int _raise;
+
+	public:
+
+	Math():_number(0), _raise(0){}
+	Math(double number, int val):_number(number), _raise(val){}
+
+	void display();
+};
+
+void Math::display()
+{
+	cout<<_number<<" ^ "<<_raise<<" = ";
+
+	double product=1;
+
+	for(int i=0; i<_raise; i++)
+		product*=_number;
+	
+	cout<<product<<"\n\n";
+}
+
+#endif
