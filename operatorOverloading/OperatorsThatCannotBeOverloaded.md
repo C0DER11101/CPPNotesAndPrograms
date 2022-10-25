@@ -8,7 +8,7 @@
 | ::       | Scope resolution operator   |
 | ?:       | Conditional operator        |
 
-# Operators where a friend cannot be used
+# Operators which cannot be made friend functions
 
 | Operator | Description |
 |:---------|------------:|
