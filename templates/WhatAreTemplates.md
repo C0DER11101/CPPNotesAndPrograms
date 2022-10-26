@@ -6,4 +6,14 @@
 
 **Templates are also called _parameterized classes or functions_ because they are defined with a parameter that would be replaced by a specified data type at the time of actual use of the class or function.**
 
+### SYNTAX
+
+```c++
+template<class T>
+class classname
+{
+	// body of the class
+};
+```
+
 ---
