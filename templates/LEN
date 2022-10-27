@@ -1,0 +1,5 @@
+#ifndef LENH
+#define LENH
+
+#include "/home/priyanuj/len"
+#endif
