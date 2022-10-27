@@ -1,4 +1,4 @@
-# About [tem1.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/templates/tem1.cpp?raw=true)
+# About [tem1.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/templates/tem1.cpp)
 
 Say, there is a class whose definition looks somewhat like this:
 
