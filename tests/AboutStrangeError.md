@@ -1,6 +1,6 @@
 # About the strange error!!
 
-The images below shows the strange error that I got.
+The images below show the strange error that I got.
 
 ![image](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/tests/StrangeError2.png?raw=true)
 
