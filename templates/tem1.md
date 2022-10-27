@@ -11,18 +11,25 @@ class Vector
 
 	public:
 
+	Vector():_v(NULL), _size(0){}
+
+	Vector(int size):_size(size)
+	{
+		_v=new T[_size];
+	}
+
 	// member functions!!
 };
 ```
 
 The syntax of creation of objects of such type of classes is:
 
-`classname<T>objectname`, where `T` is the type specified by the user it can be `int`, `float`, `char`, `double`, or even a class type.
+`classname<type> objectname(arglist);`, where `type` is any valid type specified by the user it can be `int`, `float`, `char`, `double`, or even a class type. The `arglist` is optional, it depends on whether you have defined a parameterized a constructor or not.
 
 Similary, the object of `class Vector` will look like this:
 
 ```c++
-Vector<int>object;
+Vector<int> object(5);
 ```
 
 Now, the definition of the class `Vector` with `T` as `int` would look like this:
@@ -34,6 +41,13 @@ class Vector
 	int _size;
 
 	public:
+
+	Vector():_v(NULL), _size(0){}
+
+	Vector(int size):_size(size)
+	{
+		_v=new int[_size];
+	}
 	// member functions!!!
 };
 ```
