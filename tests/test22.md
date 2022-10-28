@@ -70,7 +70,7 @@ sample<T>& sample<T>::operator+(sample&s)
 	// code
 }
 ```
-Here, the "<T>" between `sample` and `&` is necessary, otherwise the compiler will yell at you!!
+Here, the `<T>` between `sample` and `&` is necessary, otherwise the compiler will yell at you!!
 
 Here is the image of test22.cpp where the opposite of what was just said was done.
 
