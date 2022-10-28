@@ -30,4 +30,29 @@ _A **catch** block catches the exception thrown by the **throw** statement in th
 
 > The **catch** block that catches an exception must immediately follow the **try** block that throws the exception!!
 
+
+### Syntax
+
+```c++
+
+try
+{
+	// code
+
+	throw Exception;
+
+}
+
+catch(type arg)
+{
+	// handle the thrown Exception!!
+
+}
+
+```
+
+**If the type of the object thrown matches the _arg_ type in the catch statement, then catch block is executed for handling the exception. If they donot match, then the program is aborted with the help of the abort() function which is invoked by default.**
+
+_When no exception is detected and thrown, the control goes into the statement immediately after the catch block, in simple words, the catch block is not executed!!!_
+
 ---
