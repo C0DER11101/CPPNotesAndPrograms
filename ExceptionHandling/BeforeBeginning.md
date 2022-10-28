@@ -20,4 +20,14 @@
 	4. Take corrective actions( _Handle the exception_ ).
 
 
+## Mechanism of exception handling
+
+> This mechanism is built upon three _keywords_, **try**, **throw** and **catch**.
+
+_The **try** block is used to detect an exception(basically by using `if-else` statements). If an exception is detected then it is thrown using the **throw** statement._
+
+_A **catch** block catches the exception thrown by the **throw** statement in the **try** block, and it handles the exception appropriately._
+
+> The catch block that catches an ecxeption must immediately follow the try block that throws the exception!!
+
 ---
