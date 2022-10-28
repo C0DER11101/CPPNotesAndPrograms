@@ -28,6 +28,6 @@ _The **try** block is used to detect an exception(basically by using `if-else` s
 
 _A **catch** block catches the exception thrown by the **throw** statement in the **try** block, and it handles the exception appropriately._
 
-> The catch block that catches an ecxeption must immediately follow the try block that throws the exception!!
+> The **catch** block that catches an exception must immediately follow the **try** block that throws the exception!!
 
 ---
