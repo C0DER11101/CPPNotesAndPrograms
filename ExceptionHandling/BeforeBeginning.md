@@ -55,4 +55,8 @@ catch(type arg)
 
 _When no exception is detected and thrown, the control goes into the statement immediately after the catch block, in simple words, the catch block is not executed!!!_
 
+The point at the which **throw** statement is executed is called **throw point**.
+
+Once an exception is thrown to **catch** block, control cannot return to the **throw point**.
+
 ---
