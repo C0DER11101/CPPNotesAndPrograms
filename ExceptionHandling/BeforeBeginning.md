@@ -9,7 +9,7 @@
 
 
 - _Exceptions are of two types:_
-	1.Synchronous exceptions(e.g.: "out-of-range index", "over-flow").
-	2.Asynchronous exceptions(e.g.: keyboard interrupts).
+	1.Synchronous exceptions (e.g.: "out-of-range index", "over-flow").
+	2.Asynchronous exceptions (e.g.: keyboard interrupts).
 
 ---
