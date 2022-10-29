@@ -31,6 +31,12 @@ class MAT
 				delete _mat;
 			count++;
 		}
+
+		else if(count==2)
+		{
+			count=0;
+		}
+
 	}
 
 	
