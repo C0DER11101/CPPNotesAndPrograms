@@ -32,7 +32,6 @@ void sample<T>::show()
 
 	if(_id=="a2")
 	{
-		_id="a3";
 		cout<<"throwing\n";
 		throw *this;
 		cout<<"thrown\n";
