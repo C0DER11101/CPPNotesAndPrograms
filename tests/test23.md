@@ -18,7 +18,7 @@ The next `Destructor for 120 a2` was for object `b` in the main function and the
 
 **------------------------------------------------------------------------------------**
 
-_This is what I thought what happened(maynot be precise)_
+_This is what I thought had happened(maynot be precise)_
 
 We already know that a destructor begins from the end of a program or a function(opposite to the flow of control).
 
