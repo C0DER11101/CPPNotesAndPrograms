@@ -9,8 +9,11 @@ void test(T);
 int main(void)
 {
 	int a=10;
+
 	float b=13.56;
+
 	double d=67.8;
+
 	char c='a';
 	
 	cout<<"\nFrom main:\n";
