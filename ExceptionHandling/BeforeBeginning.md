@@ -72,7 +72,6 @@ The `Exception` may be of any type, including constants!!
 
 **Throw point can be in a deeply nested scope within a try block or in a deeply nested function call. In any case, control is transferred to the catch statement!!**
 
----
 
 ## Catching mechanism
 
@@ -85,3 +84,5 @@ catch(type arg)
 	// managing exceptions
 }
 ```
+
+---
