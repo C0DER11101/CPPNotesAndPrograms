@@ -59,4 +59,29 @@ The point at the which **throw** statement is executed is called **throw point**
 
 Once an exception is thrown to **catch** block, control cannot return to the **throw point**.
 
+## Throwing mechanism
+
+```c++
+throw(Exception);
+throw Exception;
+throw; // this is used for rethrowing an exception!!
+```
+
+The `Exception` may be of any type, including constants!!
+
+
+**Throw point can be in a deeply nested scope within a try block or in a deeply nested function call. In any case, control is transferred to the catch statement!!**
+
 ---
+
+## Catching mechanism
+
+A **catch** block looks like a function definition and is of the form:
+
+```c++
+catch(type arg)
+{
+	// statements
+	// managing exceptions
+}
+```
