@@ -21,7 +21,7 @@ catch(datatype)
 ```
 
 It works like a normal try/catch block, exception thrown from the **try** block gets caught by the **catch()** block.
-Again, the exception thrown by the **catch()** block gets caught by another try/catch block in some other function!!
+Again, the exception thrown by the **catch()** block gets caught by another **catch()** block in some other try/catch block in another function!!
 
 _When an exception is rethrown, it won't be caught by the same **catch()** block or any other **catch** in that group(or function). I will be caught by an approriate **catch** in the outer try/catch sequence only._
 
