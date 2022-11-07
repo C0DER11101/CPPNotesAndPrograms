@@ -81,11 +81,11 @@ cout<<"TABLE 2"<<"\n";
 ```
 
 Output will be:
-`
+```
 TABLE 1********
 
 TABLE 2********
-`
+```
 
 
 `cout.setf();` holds for both the output statements here!!!
