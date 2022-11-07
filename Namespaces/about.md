@@ -7,7 +7,7 @@
 
 2. New operators
 	1. [const_cast]()
-	2. [static_cast]()
+	2. [static_cast](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/static_castOperator)
 	3. [dynamic_cast]()
 	4. [reinterpret_cast]()
 	5. [typeid]()
