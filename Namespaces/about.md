@@ -2,7 +2,7 @@
 
 1. New data types
 	1. [bool](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/bool)
-	2. [wchar_t]()
+	2. [wchar_t](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/wchar_t)
 
 
 2. New operators
