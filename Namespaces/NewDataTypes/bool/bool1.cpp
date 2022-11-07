@@ -11,6 +11,8 @@ int main(void)
 
 	b=false;
 
+	// default value of true is 1 and default value of false if 0
+
 	cout<<a<<" "<<b<<"\n";
 	return 0;
 }
