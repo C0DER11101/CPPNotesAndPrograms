@@ -1,7 +1,7 @@
 # The new stuff in C++
 
 1. New data types
-	1. [bool]()
+	1. [bool](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/bool)
 	2. [wchar_t]()
 
 
