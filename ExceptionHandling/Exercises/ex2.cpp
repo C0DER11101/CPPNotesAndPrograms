@@ -12,7 +12,7 @@ void add(T a, T b)
 			throw (a+b);
 	}
 
-	catch(int result)
+	catch(int)
 	{
 		cout<<"\n[Calculating....]\n";
 		system("sleep 0.2");
