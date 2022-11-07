@@ -83,6 +83,7 @@ cout<<"TABLE 2"<<"\n";
 Output will be:
 `
 TABLE 1********
+
 TABLE 2********
 `
 
