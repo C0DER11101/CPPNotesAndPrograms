@@ -14,7 +14,7 @@ class sample
 	void show();
 };
 
-void sample::change()
+void sample::change() const
 {
 	m+=10;
 }
