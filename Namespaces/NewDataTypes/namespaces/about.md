@@ -58,6 +58,6 @@ using namespace namespace_name::member_name;
 ```
 In this case, we can only use the specified member without using the scope resolution operator, but for other members we need to use the scope resolution operator.
 
-[p1.cpp]() explains everything!!
+[p1.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/Namespaces/NewDataTypes/namespaces/p1.cpp) explains everything!!
 
 ---
