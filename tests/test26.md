@@ -5,6 +5,24 @@ This file tells us about the nested namespaces!!
 
 The **using namespace** statement is very important.
 
+**In simple words the _using namespace_ statement basically means bring all the members of the namespace into the current scope**.
+Example:
+
+```c++
+namespace N1
+{
+	int m;
+}
+
+int main(void)
+{
+	using namespace N1;
+	return 0;
+}
+```
+
+The `using namespace N1` basically means "bring the members of namespace N1 to the current scope(i.e to main() function).
+
 Example:
 
 ```c++
