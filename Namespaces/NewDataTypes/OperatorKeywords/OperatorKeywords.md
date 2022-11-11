@@ -3,7 +3,7 @@
 | Operator | Operator Keyword | Description |
 |:---------|:----------------:|------------:|
 |&&     | and              | Logical AND |
-|||     | or               | Logical OR |
+|$\left\leftvert \right\rightver$     | or               | Logical OR |
 |!      | not              | Logical NOT |
 |!=     | not_eq           | Inequality |
 |&      | bitand           | Bitwise AND |
