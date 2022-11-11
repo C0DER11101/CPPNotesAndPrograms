@@ -15,7 +15,7 @@
 
 3. Class implementation
 	1. [Explicit constructors]()
-	2. [Mutable members]()
+	2. [Mutable members](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/mutableInCpp)
 
 
 4. [Namespace scope]()
