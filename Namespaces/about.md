@@ -18,7 +18,7 @@
 	2. [Mutable members](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/mutableInCpp)
 
 
-4. [Namespace scope]()
+4. [Namespace scope](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/namespaces)
 5. [Operator keywords]()
 6. [New keywords]()
 7. [New headers]()
