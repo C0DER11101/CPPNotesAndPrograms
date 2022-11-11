@@ -19,9 +19,9 @@
 
 
 4. [Namespace scope](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/namespaces)
-5. [Operator keywords]()
+5. [Operator keywords](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/OperatorKeywords)
 6. [New keywords]()
-7. [New headers]()
+7. [New headers](https://github.com/C0DER11101/CPPNotesAndPrograms/tree/master/Namespaces/NewDataTypes/NewHeaders)
 
 
 :sparkling_heart: Happy coding :sparkling_heart:
