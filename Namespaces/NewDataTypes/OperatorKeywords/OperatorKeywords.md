@@ -1,8 +1,8 @@
 # Operator keywords!!
 
 | Operator | Operator Keyword | Description |
-|:---------|:-----------------|:------------|
-|`&&`|and|Logical AND
+|:---------|:-----------------|------------:|
+|`&&`|and|Logical AND|
 |`||`|or|Logical OR|
 |`!`|not|Logical NOT|
 |`!=`|not_eq|Inequality|
