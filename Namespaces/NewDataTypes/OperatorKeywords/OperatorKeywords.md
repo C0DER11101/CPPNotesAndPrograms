@@ -7,9 +7,9 @@
 |!      | not              | Logical NOT |
 |!=     | not_eq           | Inequality |
 |&      | bitand           | Bitwise AND |
-||      | bitor            | Bitwise inclusive OR |
+|$\left\lvert$      | bitor            | Bitwise inclusive OR |
 |^      | xor              | Bitwise exclusive OR |
 |~      | compl            | Bitwise complement |
 |&=     | and_eq           | Bitwise AND assignment |
-||=     | or_eq            | Bitwise inclusive OR assignment |
+|$\left\lvert$=     | or_eq            | Bitwise inclusive OR assignment |
 |^=     | xor_eq           | Bitwise exclusive OR assignment |
