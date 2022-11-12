@@ -3,7 +3,7 @@
 What I will learn here:
 
 - [x] Simple structure definitions.
-- [ ] Structure functions.
+- [x] Structure functions.
 - [ ] Structure pointers.
 - [ ] Constructors and destructors in structures.
 - [ ] Templates with structures.
