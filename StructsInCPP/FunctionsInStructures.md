@@ -41,7 +41,7 @@ As you can see here :point_up:, we can specify the visibility mode for the data 
 
 `s.getValue()` basically calls the `getValue()` method in the public section of the structure `sample`.
 
-When you specify the visibility modes in structures, then all the properties of C++ classes also apply here. The private members can only be accessed by the member functions of the structures, they cannot be accessed non member functions!!
+When you specify the visibility modes in structures, then all the properties of C++ classes also apply here. The private members can only be accessed by the member functions of the structures, they cannot be accessed by non member functions!!
 
 So here we cannot write `s.showValue()` in the `main()` function, this will throw an error because `showValue()` is a private member of `sample`.
 
