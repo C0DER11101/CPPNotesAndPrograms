@@ -1,0 +1,15 @@
+# Topics
+
+What I will learn here:
+
+- [ ] Simple structure definitions.
+- [ ] Structure functions.
+- [ ] Structure pointers.
+- [ ] Constructors and destructors in structures.
+- [ ] Templates with structures.
+- [ ] Conclusion.
+
+
+_This is a simple list of topics that I am going to learn_.
+
+---
