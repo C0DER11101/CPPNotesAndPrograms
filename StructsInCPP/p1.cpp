@@ -33,6 +33,7 @@ struct sample
 
 int main(void)
 {
+	cout<<"\nTemplates with structures in C++\n\n";
 	sample<int>a;
 	a.init(5);
 	a.rmv();
