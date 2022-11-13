@@ -7,7 +7,7 @@ What I will learn here:
 - [x] Structure pointers.
 - [x] Constructors and destructors in structures.
 - [x] Templates with structures.
-- [ ] Conclusion.
+- [x] Conclusion.
 
 
 _This is a simple list of topics that I am going to learn_.
