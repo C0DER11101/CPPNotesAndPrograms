@@ -41,4 +41,23 @@ We can use iterators to move through the contents of containers.
 
 > Iterators connect algorithms with containers and play a key role in the manipulation of dta stored in the containers.
 
+# 1. Containers
+> Holds data!!
+
+STL defines 10 containers:
+
+|Container|Description|Header file|Iterator|
+|:--------|:---------:|:---------:|-------:|
+|vector|A dynamic array. Allows insertions and deletions at the back. Permits access to any element.|`<vector>`|Random access|
+|list|A bidirectional, linear list. Allows insertions and deletions anywhere.|`<list>`|Bidirectional|
+|deque|A double-ended queue. Allows insertions and deletions at both ends. Permits direct access to any element.|`<deque>`|Random access|
+|set|An associate container for storing unique sets. Allows rapid lookup, no duplicates allowed.|`<set>`|Bidirectional|
+|multiset|An associate container for storing non-unique sets.(Duplicates allowed).|`<set>`|Bidirectional|
+|map|An assiciate container for storing unique key/value pairs. each key is assiciated with only one vlaue(One-to-one mapping). Allows key-based lookup.|`<map>`|Bidirectional|
+|multimap|An associate container for storing key/value pairs in which one key may be associated with more than one vlaue(one-to-many mapping). Allows key-based lookup.|`<map>`|Bidirectional|
+|stack|A standard stack. Last-in-first-out(LIFO).|`<stack>`|No iterator|
+|queue|A standard queue. First-in-first-out(FIFO).|`<queue>`|No iterator|
+|priority_queue|A priority queue. The first element out is always the highest priority element|`<queue>`|No iterator|
+
+
 ---
