@@ -6,7 +6,7 @@ What I will learn here:
 - [x] Structure functions.
 - [x] Structure pointers.
 - [x] Constructors and destructors in structures.
-- [ ] Templates with structures.
+- [x] Templates with structures.
 - [ ] Conclusion.
 
 
