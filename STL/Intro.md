@@ -59,5 +59,41 @@ STL defines 10 containers:
 |queue|A standard queue. First-in-first-out(FIFO).|`<queue>`|No iterator|
 |priority_queue|A priority queue. The first element out is always the highest priority element|`<queue>`|No iterator|
 
+**Containers:**
+
+1. Sequence containers.
+	- vector
+	- deque
+	- list
+
+
+2. Associative containers
+	- set
+	- multiset
+	- map
+	- multimap
+
+
+3. Derived containers
+	- stack
+	- queue
+	- priority_queue
+
+
+## Sequence containers
+
+> Store elements in a linear sequence.
+> Elements in all these containers can be accessed using an iterator.
+
+## Associative containers
+
+> Designed to support direct access to elemens using keys. They are not sequential.
+> These are very slow for random access and inefficient for sorting.
+
+These containers store data in the form of _trees_.
+
+## Derived containers
+
+> Donot support iterators and therefore we cannot use them for data manipulation.
 
 ---
