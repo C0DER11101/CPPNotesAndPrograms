@@ -32,3 +32,30 @@ Details of file stream classes.
 |ifstream|Provides input operations. Contains **open()** with default input mode. Inherits the functions **get()**, **getline()**, **read()**, **seekg()** and **tellg()** functions from istream.|
 |ofstream|Provides output operations. Contains **open()**with default output mode. Inherits **put()**, **seekp()**, **tellp()** and **write()** functions from ostream.|
 |fstream|Provides support for simultaneous input and output operations. Inherits all functions from istream and ostream classes through iostream.|
+
+
+
+# Opening and closing a file
+
+**A file stream can be defined using the classes _ifstream_, _ofstream_ and _fstream_**.
+
+_A file can be opened in two ways:_
+
+1. Using the constructor function of the class(useful when we use only one file in the stream).
+2. Using the member function **open()** of the class.
+
+
+## Opening files using constructor
+
+1. Create a file stream object to manage the stream using the appropriate class.
+2. Initialize the file object with the desired filename.
+
+Example:
+
+```c++
+ofstream outfile("hello.txt");
+```
+
+Creates an `ofstream` class object `outfile` The above snippet also opens the file called `hello.txt` and attaches it to the output stream `outfile`.
+
+The connection with a file is closed automatically when the stream object expires(when the program terminates).
