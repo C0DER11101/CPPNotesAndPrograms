@@ -59,3 +59,16 @@ ofstream outfile("hello.txt");
 Creates an `ofstream` class object `outfile` The above snippet also opens the file called `hello.txt` and attaches it to the output stream `outfile`.
 
 The connection with a file is closed automatically when the stream object expires(when the program terminates).
+
+
+These two files here show how the ofstream and ifstream classes work. [fpr1.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr1.cpp), [fpr2.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr2.cpp).
+
+From these two programs one thing is clear that the `>>` operator actually reads a single line from the file [file1.txt](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/file1.txt).
+
+Look at the outputs:
+
+<img src="https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/Output_fpr1.png" width="70%" height="40%">
+
+<img src="https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/Output_fpr2.png" width="70%" height="40%">
+
+---
