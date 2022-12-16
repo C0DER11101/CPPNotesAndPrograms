@@ -82,7 +82,7 @@ outf.open("hello.txt");
 
 The snippet above first declares an object of ofstream class type, then uses that object to call the **open()** member function to open a file named `hello.txt`.
 
-The below two programs show how the **open()** constructor is used:
+The below two programs show how the **open()** member function is used:
 
 [fpr3.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr3.cpp) [fpr4.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr4.cpp)
 
