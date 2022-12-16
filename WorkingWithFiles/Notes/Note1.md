@@ -21,7 +21,7 @@ Classes for file stream operations:
 2. ofstream.
 3. fstream.
 
-These classes are derived from **fstreambase**.
+These classes are derived from **fstreambase** and from the corresponding **iostream** class.
 
 Details of file stream classes.
 
@@ -88,4 +88,7 @@ The below two programs show how the **open()** member function is used:
 
 Here is the [text file](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/file2.txt) used.
 
+
+
+### Reading from two flies simultaneously
 ---
