@@ -31,11 +31,11 @@ We can control or move the file pointers to any desired position we like using t
 Example:
 
 ```c++
-ofstream outF;
-outF.open("hello.txt", ios::app);
-outF.seekg(10);
+ifstream inF;
+inF.open("hello.txt", ios::app);
+inF.seekg(10);
 ```
 
-`outF.seekg(10);` moves the output pointer to byte number 10(bytes in a file are numbered beginning from zero). So, here the output pointer is pointing to the $11^{th}$ byte.
+`inF.seekg(10);` moves the input pointer to byte number 10(bytes in a file are numbered beginning from zero). So, here the output pointer is pointing to the $11^{th}$ byte.
 
 ---
