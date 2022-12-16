@@ -1,5 +1,7 @@
 # File pointers
 
+[Linux command to count the number of bytes in a file](https://www.ibm.com/docs/en/aix/7.1?topic=af-counting-words-lines-bytes-in-files-wc-command)
+
 Each file has two pointers associated with it. One of the pointers is called _input pointer or **get pointer** and the other is called _output pointer or **put pointer**._
 
 These two pointers can be used to move through the files while reading or writing.
