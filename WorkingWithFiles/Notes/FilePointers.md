@@ -54,4 +54,40 @@ In the above snippet, we want to write some more data into `hello.txt`, so we ar
 
 This is also illustrated in [fpr8.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr8.cpp)
 
+## Specifying the offset
+
+**seekg()** and **seekp()** can also be used with two arguments as follows:
+
+```
+seekg(offset, refposition);
+seekp(offset, refposition);
+```
+
+The parameter `offset` represents the number of bytes the file pointer is to be moved from the location specified by the parameter `refposition`.
+
+The `refposition` takes one of the following three constants defined in the **ios** class:
+
+* **ios::beg** $\rightarrow$ start of the file.
+* **ios::cur** $\rightarrow$ current position of the pointer.
+* **ios::end** $\rightarrow$ end of the file.
+
+
+Table:
+
+|Seek call|Action|
+|:-------:|:----:|
+|inF.seekg(0, ios::beg)|Go to start|
+|inF.seekg(0, ios::cur)|Stay at the current position|
+|inF.seekg(0, ios::end)|Go to the end of the file|
+|inF.seekg(m, ios::beg)|Move to $(m+1)^{th}$ byte in the file|
+|inF.seekg(m, ios::cur)|Go forward by m byte(s) from the current position|
+|inF.seekg(-m, ios::cur)|Go backward by m byte(s) from the current position|
+|inF.seekg(-m, ios::end)|Go backward by m byte(s) from the end|
+
+**The above table will be the same for seekp() as well.**
+
+`seekg() moves the input pointer`
+
+`seekp() moves the output pointer`
+
 ---
