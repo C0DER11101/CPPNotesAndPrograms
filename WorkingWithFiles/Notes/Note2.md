@@ -9,7 +9,7 @@ The outputs below explain better:
 
 <img src="https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/Output_fpr6.png" width="70%" height="40%">
 
-#Output of **fpr7.cpp**
+# Output of **fpr7.cpp**
 
 <img src="https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/Output_fpr7.png" width="70%" height="40%">
 
