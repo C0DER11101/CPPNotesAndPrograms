@@ -38,4 +38,20 @@ inF.seekg(10);
 
 `inF.seekg(10);` moves the input pointer to byte number 10(bytes in a file are numbered beginning from zero). So, here the output pointer is pointing to the $11^{th}$ byte.
 
+
+```c++
+ofstream outF;
+outF.open("hello.txt", ios::app);
+
+int ptrPos;
+
+ptrPos=outF.tellp();
+
+cout<<"\nPointer at position: "<<ptrPos<<"\n";
+```
+
+In the above snippet, we want to write some more data into `hello.txt`, so we are opening it in append mode. So, the output pointer is moved to the end of the contents of the file. Now, `outF.tellp()` returns the position of output pointer. The value of `ptrPos` will represent the number of bytes in the file `hello.txt`.
+
+This is also illustrated in [fpr8.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr8.cpp)
+
 ---
