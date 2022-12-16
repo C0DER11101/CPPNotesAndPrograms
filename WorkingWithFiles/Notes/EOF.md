@@ -21,4 +21,4 @@ while(inF)
 
 So here `inF` is an object of class `ifstream` which returns 0 if any error occurs in the file operation including the end-of-file condition.
 
-So the while loop `while(inF)` will terminate when inF returns 0(either on encoutering the end-of-file condition or on file operation error).
+So the while loop `while(inF)` will terminate when `inF` returns 0(either on encoutering the end-of-file condition or on file operation error).
