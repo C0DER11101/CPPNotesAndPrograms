@@ -48,4 +48,24 @@ Look at programs below:
 
 [fpr15.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/fpr15.cpp)
 
+
+## Reading and writing class objects
+
+**read()** and **write()** handle the entire structure of an object as a single unit, using the computer's internal representation of data.
+
+
+**write()** _copies a class object from memory byte by byte with no conversion._
+
+**Only data members are written to the disk file and not the member functions.**
+
+
+Look at these programs:
+
+[writingObjects1.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/writingObjects1.cpp)
+
+[ReadingObjects.cpp](https://github.com/C0DER11101/CPPNotesAndPrograms/blob/master/WorkingWithFiles/Notes/ReadingObjects.cpp)
+
+
+Since everything we write into files is in the form of texts, so when reading from the file also we must typecast the address of the object or variable to `char*`.
+
 ---
