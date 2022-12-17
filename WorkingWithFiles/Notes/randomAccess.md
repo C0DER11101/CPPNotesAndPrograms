@@ -15,6 +15,6 @@ _The size of each object in this case can be obtained as follows:_
 
 `int object_length=sizeof(object);`
 
-_In this case, the location of a desired object, say the $m^{th}$ object can be obtained as follows:_
+_In this case, the location of a desired object, say the_ $m^{th}$ _object can be obtained as follows:_
 
 `int location=m*object_length;`
